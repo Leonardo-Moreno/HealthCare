@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leonardomlmendes.healthcare.HomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/blue">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/person" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="Perfil" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arc" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="Resultados" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/doctor" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="Consultas" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/door" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="Desmarcar" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hosp" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="Unidades" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chati" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="Chat" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sair"
+        android:layout_marginTop="20dp"
+        android:background="@color/verm"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
